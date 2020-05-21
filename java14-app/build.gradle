@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+sourceCompatibility = JavaVersion.VERSION_14
+targetCompatibility = JavaVersion.VERSION_14
+
+dependencies {
+    testImplementation 'org.testng:testng:7.1.1'
+}
+
+application {
+    mainClassName = 'java14.app.App'
+}
+
+test {
+    useTestNG()
+}

@@ -1,0 +1,3 @@
+rootProject.name = 'parent'
+
+include 'java8-library', 'java14-app'
